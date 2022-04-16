@@ -37,3 +37,20 @@ stories:
   - action: action_custom_query
 
 
+
+- story: interactive_story_1
+  steps:
+  - intent: custom_company_info
+    entities:
+    - date: '1917'
+  - action: action_custom_query
+  - intent: custom_company_info
+    entities:
+    - person_founder: founder
+    - company: Cyclone Promotions
+  - action: action_custom_query
+  - intent: custom_company_info
+    entities:
+    - person_ceo: ceo
+    - company: G-Star School of the Arts for Film, Animation and Performing Arts
+  - action: action_custom_query

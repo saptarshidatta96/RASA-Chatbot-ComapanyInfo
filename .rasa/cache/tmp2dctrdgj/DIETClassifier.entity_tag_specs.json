@@ -1,0 +1,20 @@
+[
+  {
+    "tag_name": "entity",
+    "ids_to_tags": {
+      "1": "B-DATE_FOUNDED",
+      "2": "I-DATE_FOUNDED",
+      "3": "L-DATE_FOUNDED",
+      "4": "U-DATE_FOUNDED",
+      "0": "O"
+    },
+    "tags_to_ids": {
+      "B-DATE_FOUNDED": 1,
+      "I-DATE_FOUNDED": 2,
+      "L-DATE_FOUNDED": 3,
+      "U-DATE_FOUNDED": 4,
+      "O": 0
+    },
+    "num_tags": 5
+  }
+]

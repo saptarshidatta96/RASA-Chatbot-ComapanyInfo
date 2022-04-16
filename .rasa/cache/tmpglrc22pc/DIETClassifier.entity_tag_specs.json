@@ -1,0 +1,44 @@
+[
+  {
+    "tag_name": "entity",
+    "ids_to_tags": {
+      "1": "B-company",
+      "2": "I-company",
+      "3": "L-company",
+      "4": "U-company",
+      "5": "B-date",
+      "6": "I-date",
+      "7": "L-date",
+      "8": "U-date",
+      "9": "B-person_ceo",
+      "10": "I-person_ceo",
+      "11": "L-person_ceo",
+      "12": "U-person_ceo",
+      "13": "B-person_founder",
+      "14": "I-person_founder",
+      "15": "L-person_founder",
+      "16": "U-person_founder",
+      "0": "O"
+    },
+    "tags_to_ids": {
+      "B-company": 1,
+      "I-company": 2,
+      "L-company": 3,
+      "U-company": 4,
+      "B-date": 5,
+      "I-date": 6,
+      "L-date": 7,
+      "U-date": 8,
+      "B-person_ceo": 9,
+      "I-person_ceo": 10,
+      "L-person_ceo": 11,
+      "U-person_ceo": 12,
+      "B-person_founder": 13,
+      "I-person_founder": 14,
+      "L-person_founder": 15,
+      "U-person_founder": 16,
+      "O": 0
+    },
+    "num_tags": 17
+  }
+]
