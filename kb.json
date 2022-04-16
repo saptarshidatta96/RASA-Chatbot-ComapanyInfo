@@ -1,0 +1,752 @@
+[
+    {
+        "entity": "Tata Chemicals Europe",
+        "attribute": "SUBSIDIARY_OF",
+        "value": "Tata Chemicals Limited"
+    },
+    {
+        "entity": "Celgene Cellular Therapeutics",
+        "attribute": "SUBSIDIARY_OF",
+        "value": "Celgene Corporation"
+    },
+    {
+        "entity": "Stanley Black & Decker",
+        "attribute": "CEO",
+        "value": "John F. Lundgren"
+    },
+    {
+        "entity": "Collins, O\u2019Neal & Swofford",
+        "attribute": "FOUNDED_BY",
+        "value": "Rob"
+    },
+    {
+        "entity": "South Shore Coin Club",
+        "attribute": "DATE_FOUNDED",
+        "value": "1972"
+    },
+    {
+        "entity": "First Army",
+        "attribute": "DATE_FOUNDED",
+        "value": "1 January 2015"
+    },
+    {
+        "entity": "The Roof Center",
+        "attribute": "SUBSIDIARY_OF",
+        "value": "BECN"
+    },
+    {
+        "entity": "Lazarus Department Store",
+        "attribute": "HEADQUARTERS",
+        "value": "Moultrie"
+    },
+    {
+        "entity": "PJ Lynch Associates",
+        "attribute": "HEADQUARTERS",
+        "value": "CT"
+    },
+    {
+        "entity": "CRS",
+        "attribute": "FOUNDED_BY",
+        "value": "Mike Clark"
+    },
+    {
+        "entity": "1928",
+        "attribute": "SUBSIDIARY_OF",
+        "value": "Las Vegas Sands Corp."
+    },
+    {
+        "entity": "UNISIA OF GEORGIA CORPORATION",
+        "attribute": "SUBSIDIARY_OF",
+        "value": "Hitachi Automotive Products (USA), Inc."
+    },
+    {
+        "entity": "Hino",
+        "attribute": "SUBSIDIARY_OF",
+        "value": "Hino Motors"
+    },
+    {
+        "entity": "SAMMI",
+        "attribute": "CEO",
+        "value": "Floriano Bussetti"
+    },
+    {
+        "entity": "Pathology",
+        "attribute": "FOUNDED_BY",
+        "value": "Dave Astor"
+    },
+    {
+        "entity": "Financial Reporting Council",
+        "attribute": "CEO",
+        "value": "Stephen Haddrill"
+    },
+    {
+        "entity": "ThinkGeek",
+        "attribute": "SUBSIDIARY_OF",
+        "value": "Geeknet, Inc."
+    },
+    {
+        "entity": "National Credit Counsellors of Canada",
+        "attribute": "SUBSIDIARY_OF",
+        "value": "NCC Financial"
+    },
+    {
+        "entity": "Helee Group",
+        "attribute": "DATE_FOUNDED",
+        "value": "1989"
+    },
+    {
+        "entity": "Edina Realty",
+        "attribute": "SUBSIDIARY_OF",
+        "value": "HomeServices of America, Inc"
+    },
+    {
+        "entity": "Control Data Systems, Inc",
+        "attribute": "DATE_FOUNDED",
+        "value": "1992"
+    },
+    {
+        "entity": "La Tribune",
+        "attribute": "DATE_FOUNDED",
+        "value": "1985"
+    },
+    {
+        "entity": "National League for Nursing",
+        "attribute": "CEO",
+        "value": "Beverly Malone"
+    },
+    {
+        "entity": "Yozma",
+        "attribute": "FOUNDED_BY",
+        "value": "Goldschmidt"
+    },
+    {
+        "entity": "LEAD1 Association",
+        "attribute": "CEO",
+        "value": "McMillen"
+    },
+    {
+        "entity": "IPG",
+        "attribute": "DATE_FOUNDED",
+        "value": "2009"
+    },
+    {
+        "entity": "TVM Comics",
+        "attribute": "HEADQUARTERS",
+        "value": "Ho Chi Minh City"
+    },
+    {
+        "entity": "Haskell Manufacturing Company",
+        "attribute": "HEADQUARTERS",
+        "value": "Ludington"
+    },
+    {
+        "entity": "Plas Newydd Care Home",
+        "attribute": "SUBSIDIARY_OF",
+        "value": "Plas Newydd Care Ltd"
+    },
+    {
+        "entity": "Real News Network",
+        "attribute": "CEO",
+        "value": "Paul Jay"
+    },
+    {
+        "entity": "Sorgente Group",
+        "attribute": "CEO",
+        "value": "Valter Mainetti"
+    },
+    {
+        "entity": "Ericsson Mobile Communications AB",
+        "attribute": "SUBSIDIARY_OF",
+        "value": "Ericsson"
+    },
+    {
+        "entity": "Natural Awakenings North Texas",
+        "attribute": "SUBSIDIARY_OF",
+        "value": "Texas Green & Healthy Inc."
+    },
+    {
+        "entity": "St Kilda Youth Service",
+        "attribute": "CEO",
+        "value": "Silvers"
+    },
+    {
+        "entity": "WestPoint Home",
+        "attribute": "CEO",
+        "value": "Normand Savaria"
+    },
+    {
+        "entity": "Infinium Capital",
+        "attribute": "SUBSIDIARY_OF",
+        "value": "Infinium Group Inc."
+    },
+    {
+        "entity": "Northport Capital",
+        "attribute": "SUBSIDIARY_OF",
+        "value": "Resource America"
+    },
+    {
+        "entity": "Parallels, Inc",
+        "attribute": "SUBSIDIARY_OF",
+        "value": "SWsoft"
+    },
+    {
+        "entity": "Bass Pro Shops",
+        "attribute": "CEO",
+        "value": "John Morris"
+    },
+    {
+        "entity": "Pyro Studios",
+        "attribute": "DATE_FOUNDED",
+        "value": "1998"
+    },
+    {
+        "entity": "Rolls-Royce",
+        "attribute": "CEO",
+        "value": "John Frederick Rishton"
+    },
+    {
+        "entity": "Stevanato Group",
+        "attribute": "HEADQUARTERS",
+        "value": "Padua"
+    },
+    {
+        "entity": "FNS, Inc.",
+        "attribute": "SUBSIDIARY_OF",
+        "value": "Pantos Logistics"
+    },
+    {
+        "entity": "Cephalon, Inc.",
+        "attribute": "FOUNDED_BY",
+        "value": "Michael Lewis"
+    },
+    {
+        "entity": "AtelierCABAL",
+        "attribute": "SUBSIDIARY_OF",
+        "value": "CABAL Media"
+    },
+    {
+        "entity": "PT Indo Bio Products",
+        "attribute": "HEADQUARTERS",
+        "value": "Indonesia"
+    },
+    {
+        "entity": "Auto Union",
+        "attribute": "DATE_FOUNDED",
+        "value": "1932"
+    },
+    {
+        "entity": "Pittsburgh's E-Resource",
+        "attribute": "HEADQUARTERS",
+        "value": "Pittsburgh"
+    },
+    {
+        "entity": "Code Blue Computing, Inc.",
+        "attribute": "HEADQUARTERS",
+        "value": "Colorado"
+    },
+    {
+        "entity": "Society",
+        "attribute": "DATE_FOUNDED",
+        "value": "October 1982"
+    },
+    {
+        "entity": "Speednet Communications Limited",
+        "attribute": "DATE_FOUNDED",
+        "value": "2003"
+    },
+    {
+        "entity": "ADB",
+        "attribute": "SUBSIDIARY_OF",
+        "value": "KBC Bank"
+    },
+    {
+        "entity": "Middendorf Institute for Breathexperience",
+        "attribute": "DATE_FOUNDED",
+        "value": "1991"
+    },
+    {
+        "entity": "Manhattan Associates",
+        "attribute": "CEO",
+        "value": "Dabbiere"
+    },
+    {
+        "entity": "ALAMO OILFIELD SERVICES",
+        "attribute": "DATE_FOUNDED",
+        "value": "1985"
+    },
+    {
+        "entity": "Milestone Aviation Group",
+        "attribute": "SUBSIDIARY_OF",
+        "value": "GE Capital Aviation Services"
+    },
+    {
+        "entity": "Toronto-Dominion Bank",
+        "attribute": "CEO",
+        "value": "Bharat Masrani"
+    },
+    {
+        "entity": "QVC",
+        "attribute": "SUBSIDIARY_OF",
+        "value": "Liberty Interactive"
+    },
+    {
+        "entity": "Blue Jeans Music BMI",
+        "attribute": "CEO",
+        "value": "Stephen A. Love"
+    },
+    {
+        "entity": "SWI",
+        "attribute": "HEADQUARTERS",
+        "value": "US"
+    },
+    {
+        "entity": "APS",
+        "attribute": "CEO",
+        "value": "Brandt"
+    },
+    {
+        "entity": "PAS",
+        "attribute": "SUBSIDIARY_OF",
+        "value": "Guardian"
+    },
+    {
+        "entity": "FFG",
+        "attribute": "HEADQUARTERS",
+        "value": "Texas"
+    },
+    {
+        "entity": "Academy & Finance",
+        "attribute": "HEADQUARTERS",
+        "value": "Switzerland"
+    },
+    {
+        "entity": "NFI",
+        "attribute": "HEADQUARTERS",
+        "value": "Shasta County"
+    },
+    {
+        "entity": "Lockton Companies",
+        "attribute": "HEADQUARTERS",
+        "value": "St. Louis"
+    },
+    {
+        "entity": "PSPi",
+        "attribute": "CEO",
+        "value": "Anthony M. Fischetti"
+    },
+    {
+        "entity": "Airstream",
+        "attribute": "SUBSIDIARY_OF",
+        "value": "Thor Industries"
+    },
+    {
+        "entity": "Eastside Business Association",
+        "attribute": "FOUNDED_BY",
+        "value": "Mario Morales"
+    },
+    {
+        "entity": "Booth Newspapers",
+        "attribute": "FOUNDED_BY",
+        "value": "his"
+    },
+    {
+        "entity": "Cyclone Promotions",
+        "attribute": "FOUNDED_BY",
+        "value": "McGuigan"
+    },
+    {
+        "entity": "Caterpillar Tractor Company",
+        "attribute": "DATE_FOUNDED",
+        "value": "1925"
+    },
+    {
+        "entity": "G-Star School of the Arts for Film, Animation and Performing Arts",
+        "attribute": "CEO",
+        "value": "Greg Hauptner"
+    },
+    {
+        "entity": "Medical Coding",
+        "attribute": "SUBSIDIARY_OF",
+        "value": "Provistas, Incorporated"
+    },
+    {
+        "entity": "PNDS",
+        "attribute": "DATE_FOUNDED",
+        "value": "2003"
+    },
+    {
+        "entity": "America West Airlines",
+        "attribute": "HEADQUARTERS",
+        "value": "U.S."
+    },
+    {
+        "entity": "eWorld Entertainment, Inc",
+        "attribute": "SUBSIDIARY_OF",
+        "value": "eWorld"
+    },
+    {
+        "entity": "Deluxe",
+        "attribute": "HEADQUARTERS",
+        "value": "MA"
+    },
+    {
+        "entity": "Trumbull Services",
+        "attribute": "SUBSIDIARY_OF",
+        "value": "The Hartford Financial Services Group"
+    },
+    {
+        "entity": "Unicredito Italiano",
+        "attribute": "DATE_FOUNDED",
+        "value": "1998"
+    },
+    {
+        "entity": "Altaaqa Global",
+        "attribute": "SUBSIDIARY_OF",
+        "value": "Zahid Group"
+    },
+    {
+        "entity": "BlueLight Internet Services",
+        "attribute": "SUBSIDIARY_OF",
+        "value": "United Online"
+    },
+    {
+        "entity": "Lazenne",
+        "attribute": "FOUNDED_BY",
+        "value": "I"
+    },
+    {
+        "entity": "Mosti Funeral Home",
+        "attribute": "DATE_FOUNDED",
+        "value": "1917"
+    },
+    {
+        "entity": "Gold Medal Travel",
+        "attribute": "SUBSIDIARY_OF",
+        "value": "Gold Medal International"
+    },
+    {
+        "entity": "National Foods",
+        "attribute": "DATE_FOUNDED",
+        "value": "1991"
+    },
+    {
+        "entity": "Integra Tire",
+        "attribute": "DATE_FOUNDED",
+        "value": "2008"
+    },
+    {
+        "entity": "Integrated Vascular Systems",
+        "attribute": "FOUNDED_BY",
+        "value": "Steve"
+    },
+    {
+        "entity": "their",
+        "attribute": "CEO",
+        "value": "Rob Lilleness"
+    },
+    {
+        "entity": "Mattel",
+        "attribute": "CEO",
+        "value": "Thomas \"Tom\" Kalinske"
+    },
+    {
+        "entity": "ARY Group",
+        "attribute": "FOUNDED_BY",
+        "value": "Haji Abdul Razzak Yaqoob"
+    },
+    {
+        "entity": "Pilsung Elite Taekwondo Academy",
+        "attribute": "FOUNDED_BY",
+        "value": "Steve"
+    },
+    {
+        "entity": "Millennium TGA",
+        "attribute": "HEADQUARTERS",
+        "value": "Hawaii"
+    },
+    {
+        "entity": "GSB Mortgage, Inc.",
+        "attribute": "SUBSIDIARY_OF",
+        "value": "Bank of the West"
+    },
+    {
+        "entity": "San Diego Institute for Policy Research",
+        "attribute": "DATE_FOUNDED",
+        "value": "2006"
+    },
+    {
+        "entity": "Nippon Express USA, INC",
+        "attribute": "SUBSIDIARY_OF",
+        "value": "Nippon Express Company Ltd."
+    },
+    {
+        "entity": "PartnerMD",
+        "attribute": "SUBSIDIARY_OF",
+        "value": "Markel Ventures"
+    },
+    {
+        "entity": "Citadel Capital",
+        "attribute": "FOUNDED_BY",
+        "value": "his"
+    },
+    {
+        "entity": "Las Olas Tattoo Company",
+        "attribute": "FOUNDED_BY",
+        "value": "Shamus Parker"
+    },
+    {
+        "entity": "Disney",
+        "attribute": "CEO",
+        "value": "Michael Eisner"
+    },
+    {
+        "entity": "Pixlee",
+        "attribute": "FOUNDED_BY",
+        "value": "Kyle Wong"
+    },
+    {
+        "entity": "Beans & Brews Coffee House",
+        "attribute": "DATE_FOUNDED",
+        "value": "1993"
+    },
+    {
+        "entity": "Sterling Optical",
+        "attribute": "SUBSIDIARY_OF",
+        "value": "Emerging Vision, Inc."
+    },
+    {
+        "entity": "Fifth Third Bancorp",
+        "attribute": "HEADQUARTERS",
+        "value": "Cincinnati"
+    },
+    {
+        "entity": "jordi llopis design",
+        "attribute": "FOUNDED_BY",
+        "value": "Jordi Llopis i Freixas"
+    },
+    {
+        "entity": "TVI",
+        "attribute": "DATE_FOUNDED",
+        "value": "1980"
+    },
+    {
+        "entity": "St. Thomas College",
+        "attribute": "DATE_FOUNDED",
+        "value": "1888"
+    },
+    {
+        "entity": "Symphony Towers",
+        "attribute": "HEADQUARTERS",
+        "value": "California"
+    },
+    {
+        "entity": "Traditional Tae-Kwon-Do Center",
+        "attribute": "FOUNDED_BY",
+        "value": "Brunner"
+    },
+    {
+        "entity": "Leisure Arts",
+        "attribute": "DATE_FOUNDED",
+        "value": "1971"
+    },
+    {
+        "entity": "Baptist Medical Center",
+        "attribute": "SUBSIDIARY_OF",
+        "value": "Baptist Health Systems"
+    },
+    {
+        "entity": "Art of Anarchy",
+        "attribute": "DATE_FOUNDED",
+        "value": "2011"
+    },
+    {
+        "entity": "Phoenix Associates Co., Ltd.",
+        "attribute": "SUBSIDIARY_OF",
+        "value": "Berlitz International, Inc."
+    },
+    {
+        "entity": "M&T Bank",
+        "attribute": "SUBSIDIARY_OF",
+        "value": "M&T"
+    },
+    {
+        "entity": "LUV",
+        "attribute": "HEADQUARTERS",
+        "value": "Dallas"
+    },
+    {
+        "entity": "American Douglas Metals, Inc.",
+        "attribute": "FOUNDED_BY",
+        "value": "Stephen Powers"
+    },
+    {
+        "entity": "KMCA",
+        "attribute": "HEADQUARTERS",
+        "value": "Hawaii"
+    },
+    {
+        "entity": "Passion Sports Inc",
+        "attribute": "DATE_FOUNDED",
+        "value": "2005"
+    },
+    {
+        "entity": "First Washington State Bank",
+        "attribute": "FOUNDED_BY",
+        "value": "Wishnick"
+    },
+    {
+        "entity": "Spinning Owls Productions LLC",
+        "attribute": "FOUNDED_BY",
+        "value": "Dorothy O. Wise"
+    },
+    {
+        "entity": "Intellitactics, Inc.",
+        "attribute": "HEADQUARTERS",
+        "value": "Virginia"
+    },
+    {
+        "entity": "Worcester Warriors",
+        "attribute": "HEADQUARTERS",
+        "value": "England"
+    },
+    {
+        "entity": "Project Runeberg",
+        "attribute": "FOUNDED_BY",
+        "value": "Lars Aronsson"
+    },
+    {
+        "entity": "First Niagara Bank",
+        "attribute": "HEADQUARTERS",
+        "value": "New York"
+    },
+    {
+        "entity": "Bluegrass Services",
+        "attribute": "DATE_FOUNDED",
+        "value": "2007"
+    },
+    {
+        "entity": "Ice9",
+        "attribute": "SUBSIDIARY_OF",
+        "value": "BioTex, Inc."
+    },
+    {
+        "entity": "FE",
+        "attribute": "FOUNDED_BY",
+        "value": "Adam"
+    },
+    {
+        "entity": "They",
+        "attribute": "DATE_FOUNDED",
+        "value": "2008"
+    },
+    {
+        "entity": "Academy",
+        "attribute": "DATE_FOUNDED",
+        "value": "1774"
+    },
+    {
+        "entity": "First Home Mortgage Corporation",
+        "attribute": "CEO",
+        "value": "Dave Waters"
+    },
+    {
+        "entity": "Backes and Strauss",
+        "attribute": "CEO",
+        "value": "Vartkess Knadjian"
+    },
+    {
+        "entity": "Fashion One",
+        "attribute": "FOUNDED_BY",
+        "value": "Michael Gleissner"
+    },
+    {
+        "entity": "Quantum3D",
+        "attribute": "DATE_FOUNDED",
+        "value": "1997"
+    },
+    {
+        "entity": "Gloucester Women's Club",
+        "attribute": "HEADQUARTERS",
+        "value": "Gloucester County"
+    },
+    {
+        "entity": "Methodist Health System",
+        "attribute": "CEO",
+        "value": "Stephen L. Mansfield"
+    },
+    {
+        "entity": "Creative Innovations Niche",
+        "attribute": "CEO",
+        "value": "Denise Whitney"
+    },
+    {
+        "entity": "Realogy Corporation",
+        "attribute": "SUBSIDIARY_OF",
+        "value": "NRT"
+    },
+    {
+        "entity": "Miditech",
+        "attribute": "DATE_FOUNDED",
+        "value": "1992"
+    },
+    {
+        "entity": "JOBartO Inc.",
+        "attribute": "HEADQUARTERS",
+        "value": "Florida"
+    },
+    {
+        "entity": "WSI",
+        "attribute": "HEADQUARTERS",
+        "value": "California"
+    },
+    {
+        "entity": "Kewaunee Fabrications",
+        "attribute": "SUBSIDIARY_OF",
+        "value": "Oshkosh Corporation"
+    },
+    {
+        "entity": "AFS",
+        "attribute": "SUBSIDIARY_OF",
+        "value": "ADM Investor Services, Inc."
+    },
+    {
+        "entity": "La Pietra",
+        "attribute": "HEADQUARTERS",
+        "value": "Honolulu"
+    },
+    {
+        "entity": "Investment Counsel Inc.",
+        "attribute": "SUBSIDIARY_OF",
+        "value": "DC.A"
+    },
+    {
+        "entity": "MYB",
+        "attribute": "CEO",
+        "value": "Karen Caruso"
+    },
+    {
+        "entity": "Euro Sales Limited",
+        "attribute": "DATE_FOUNDED",
+        "value": "1972"
+    },
+    {
+        "entity": "Silueta",
+        "attribute": "SUBSIDIARY_OF",
+        "value": "MAS holdings"
+    },
+    {
+        "entity": "Challenge Unlimited",
+        "attribute": "HEADQUARTERS",
+        "value": "IL"
+    },
+    {
+        "entity": "Dischord",
+        "attribute": "DATE_FOUNDED",
+        "value": "1980"
+    },
+    {
+        "entity": "Avanti",
+        "attribute": "DATE_FOUNDED",
+        "value": "2002"
+    }
+]
