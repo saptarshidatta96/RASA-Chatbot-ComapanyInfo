@@ -9,6 +9,7 @@ intents:
   - mood_unhappy
   - bot_challenge
   - general_company_info
+  - custom_company_info
 
 responses:
   utter_greet:
@@ -32,6 +33,7 @@ responses:
 
 actions:
  - action_company_info
+ - action_custom_query
 
 session_config:
   session_expiration_time: 60

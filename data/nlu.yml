@@ -98,3 +98,9 @@ nlu:
     - tell me about founders of companies
     - tell me about headquarters of companies
     - tell me about date of foundation of companies
+
+- intent: custom_company_info
+  examples: |
+    - What was established in 1917
+    - What is the Subsidiary of TATA Chemicals Limited
+    - Who is the founder of Lazenne

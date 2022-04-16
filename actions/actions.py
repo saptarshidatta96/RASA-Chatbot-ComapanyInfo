@@ -69,3 +69,18 @@ class ActionCompanyInfo(Action):
                 dispatcher.utter_message(text=reply[i][1] + ' was founded on ' + reply[i][0])
 
         return []
+
+
+class ActionCustomQuery(Action):
+    def name(self) -> Text:
+        return 'action_custom_query'
+
+    def run(self, dispatcher: CollectingDispatcher, 
+            tracker: Tracker,
+            domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+
+        userMessage = tracker.latest_message['text']
+        dispatcher.utter_message(text=userMessage)
+
+        
+        return []
