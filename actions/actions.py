@@ -113,7 +113,23 @@ class ActionCustomQuery(Action):
 
         userMessage = tracker.latest_message['text']
         entity = returnNamedEntity(userMessage)
-        dispatcher.utter_message(text=entity[0][0])
+        for ent in entity:
+            if ent[1] == 'DATE':
+                reply = [(item["value"], item['entity']) for item in data if item["attribute"] == 'DATE_FOUNDED']
+                for rep in reply:
+                    if rep[0] == ent[0]:
+                        dispatcher.utter_message(text=rep[1] + ' was founded in ' + rep[0])
 
-        
+            elif ent[1] == 'ORG':
+                reply = [(item["entity"], item['attribute'], item['value']) for item in data if item["entity"] == ent[0] or item["value"] == ent[0]]
+                if reply == []:
+                    dispatcher.utter_message(text='No data available')
+                for rep in reply:
+                    if rep[1] == 'FOUNDED_BY':
+                        dispatcher.utter_message(text=rep[2] + ' was founded by ' + rep[0])
+                    elif rep[1] == 'CEO':
+                        dispatcher.utter_message(text=rep[2] + ' is the CEO of ' + rep[0])
+                    elif rep[1] == 'HEADQUARTERS':
+                        dispatcher.utter_message(text=rep[2] + ' is the headquater of ' + rep[0])
+                    
         return []
