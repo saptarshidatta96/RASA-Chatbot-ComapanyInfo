@@ -12,7 +12,7 @@ intents:
 - mood_unhappy
 - bot_challenge
 - general_company_info
-
+- company_info
 responses:
   utter_greet:
   - text: Hey! How are you?
@@ -30,3 +30,4 @@ responses:
 actions:
 - action_company_info
 - action_custom_query
+- action_info

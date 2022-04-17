@@ -103,6 +103,46 @@ class ActionCompanyInfo(Action):
         return []
 
 
+class ActionInfo(Action):
+    def name(self) -> Text:
+        return 'action_info'
+
+    def run(self, dispatcher: CollectingDispatcher, 
+            tracker: Tracker,
+            domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+
+        userMessage = tracker.latest_message['text']
+
+        if isWordPresent(userMessage, 'subsidiaries'):
+            reply = [(item["value"], item['entity']) for item in data if item["attribute"] == 'SUBSIDIARY_OF']
+            for i in range(len(reply)):
+                dispatcher.utter_message(text=reply[i][1] + ' is the Subsidiary of ' + reply[i][0])
+
+
+        elif isWordPresent(userMessage, 'ceo'):
+            reply = [(item["value"], item['entity']) for item in data if (item["attribute"] == 'CEO' and item["value"]=='Beverly Malone') ]
+            for i in range(len(reply)):
+                dispatcher.utter_message(text=reply[i][0] + ' is the ceo of ' + reply[i][1])   
+
+        elif isWordPresent(userMessage, 'founders'):
+            reply = [(item["value"], item['entity']) for item in data if item["attribute"] == 'FOUNDED_BY']
+            for i in range(5):
+                dispatcher.utter_message(text=reply[i][0] + ' founded ' + reply[i][1])
+        
+        elif isWordPresent(userMessage, 'headquarters'):
+            reply = [(item["value"], item['entity']) for item in data if item["attribute"] == 'HEADQUARTERS']
+            for i in range(5):
+                dispatcher.utter_message(text=reply[i][0] + ' is the headquarter of ' + reply[i][1])
+        
+        elif isWordPresent(userMessage, 'foundation'):
+            reply = [(item["value"], item['entity']) for item in data if item["attribute"] == 'DATE_FOUNDED']
+            for i in range(5):
+                dispatcher.utter_message(text=reply[i][1] + ' was founded on ' + reply[i][0])
+
+        return []
+
+
+
 class ActionCustomQuery(Action):
     def name(self) -> Text:
         return 'action_custom_query'

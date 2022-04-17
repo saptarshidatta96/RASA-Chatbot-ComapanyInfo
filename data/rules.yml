@@ -17,7 +17,12 @@ rules:
   - intent: general_company_info
   - action: action_company_info
 
-- rule: Say what the user has asked
+- rule: Say what the custom info user has asked
   steps:
   - intent: custom_company_info
   - action: action_custom_query
+
+- rule: Say what the info user has asked
+  steps:
+  - intent: company_info
+  - action: action_info

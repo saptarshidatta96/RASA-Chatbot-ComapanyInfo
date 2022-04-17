@@ -99,3 +99,10 @@ nlu:
     - who is the ceo of G-Star School of the Arts for Film, Animation and Performing Arts
     - tell me about Pyro Studios
     - give some info about Blue Jeans Music BMI
+- intent: company_info
+  examples: |
+    - tell me about subsidiaries of companies
+    - Who is the CEO of Beverly Malone?
+    - tell me any 5 founders of companies
+    - tell me any 5 headquarters of companies
+    - tell me any 5 date of foundation of companies

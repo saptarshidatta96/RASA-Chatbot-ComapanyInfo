@@ -35,6 +35,5 @@ stories:
   - action: action_company_info
   - intent: custom_company_info
   - action: action_custom_query
-
-
-
+  - intent: company_info
+  - action: action_info
