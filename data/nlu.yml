@@ -91,10 +91,9 @@ nlu:
     - tell me about date of foundation of companies
 - intent: custom_company_info
   examples: |
-    - What was established in [1917](date)
-    - What is [1917](date) significant for
+    - What was established in 1917
+    - What is 1920 significant for
     - What is the Subsidiary of TATA Chemicals Limited
-    - Who is the founder of Lazenne
-    - why is [1917](date) significant for
-    - who is the [founder](person_founder) of [Cyclone Promotions](company)
-    - who is the [ceo](person_ceo) of [G-Star School of the Arts for Film, Animation and Performing Arts](company)
+    - why is 1917 significant for
+    - who is the founder of Cyclone Promotions
+    - who is the ceo of G-Star School of the Arts for Film, Animation and Performing Arts

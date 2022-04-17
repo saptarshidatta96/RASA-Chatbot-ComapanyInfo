@@ -12,11 +12,7 @@ intents:
 - mood_unhappy
 - bot_challenge
 - general_company_info
-entities:
-- company
-- date
-- person_ceo
-- person_founder
+
 responses:
   utter_greet:
   - text: Hey! How are you?

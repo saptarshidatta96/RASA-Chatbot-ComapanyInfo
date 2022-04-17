@@ -1,20 +1,10 @@
-# This files contains your custom actions which can be used to run
-# custom Python code.
-#
-# See this guide on how to implement these action:
-# https://rasa.com/docs/rasa/custom-actions
-
-
-# This is a simple example for a custom action which utters "Hello World!"
-
 from typing import Any, Text, Dict, List
 import json
 from rasa_sdk import Action, Tracker
 from rasa_sdk.executor import CollectingDispatcher
-import pandas as pd
-from gensim.models.doc2vec import Doc2Vec
-from gensim.parsing.preprocessing import preprocess_string
+from collections import Counter
 import spacy
+nlp = spacy.load("en_core_web_sm")
 
 
 with open('kb.json', 'r') as f:
@@ -22,7 +12,6 @@ with open('kb.json', 'r') as f:
 
 
 def isWordPresent(sentence, word):
- 
     word = word.upper()
     sentence = sentence.upper()
     lis = sentence.split()
@@ -30,6 +19,49 @@ def isWordPresent(sentence, word):
         return True
     else:
         return False
+
+def extractNamedEntity(sentence):
+    out = nlp(sentence)
+    entity = ''
+    named_entities = []
+    tag_lst = []
+    for word in out:
+        entity = ''
+        named_entity = None
+        term = word.text 
+        tag = word.ent_type_
+        
+        if tag:
+            
+            entity = ' '.join([entity, term])
+            entity = entity.strip()
+            named_entity = (entity, tag)
+            named_entities.append(named_entity)
+            tag_lst.append(tag)
+        else:
+          continue
+
+    return named_entities, tag_lst
+
+def returnNamedEntity(text):
+
+    named_entities, tag_lst = extractNamedEntity(text)
+
+    count_tags = Counter(tag_lst)
+    count_tags_keys = list(count_tags.keys())
+
+    entities = []
+    for count_tag_key in count_tags_keys:
+        value = count_tags[count_tag_key]
+        entity = ''
+        for named_entity in named_entities:
+    
+            if count_tag_key == named_entity[1]:
+                entity = ' '.join([entity, named_entity[0]])
+        entities.append((entity.strip(), count_tag_key))
+
+    return entities
+
 
 
 
@@ -80,7 +112,8 @@ class ActionCustomQuery(Action):
             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
 
         userMessage = tracker.latest_message['text']
-        dispatcher.utter_message(text=userMessage)
+        entity = returnNamedEntity(userMessage)
+        dispatcher.utter_message(text=entity[0][0])
 
         
         return []
